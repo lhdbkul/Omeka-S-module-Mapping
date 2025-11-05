@@ -50,7 +50,7 @@ class MapBrowse implements LinkInterface
     {
         return [
             'label' => $data['label'],
-            'basemap_provider' => self::getBasemapProvider($data),
+            'basemap_provider' => (string) self::getBasemapProvider($data),
         ];
     }
 
