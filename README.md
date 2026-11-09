@@ -14,7 +14,7 @@ See the [Omeka S developer documentation](https://omeka.org/s/docs/developer/mod
 
 ## Requirements
  
-Most of the module works on any database Omeka S supports. The "Map by Groups" page block additionally requires MySQL 8.0.24+ or MariaDB 11.7+, for the `ST_COLLECT` spatial function. On earlier versions the block reports the requirement when you configure it, and displays nothing on the page.
+Most of the module works on any database Omeka S supports. The "Map by Groups" page block additionally requires MySQL 8.0.24+ or MariaDB 12.0.1+, for the `ST_COLLECT` spatial function. On earlier versions the block reports the requirement when you configure it, and displays nothing on the page.
 
 ## Copyright
 

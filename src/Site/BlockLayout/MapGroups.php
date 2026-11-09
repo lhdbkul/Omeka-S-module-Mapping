@@ -75,7 +75,7 @@ class MapGroups extends AbstractMap
         if (!$this->isSupported()) {
             $serverVersion = $this->connection->getWrappedConnection()->getServerVersion();
             return sprintf(
-                $view->translate('This block requires MySQL 8.0.24+ or MariaDB 11.7+. Your database version is %s.'),
+                $view->translate('This block requires MySQL 8.0.24+ or MariaDB 12.0.1+. Your database version is %s.'),
                 $serverVersion
             );
         }
